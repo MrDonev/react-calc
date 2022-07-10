@@ -55,6 +55,9 @@
  .button-divs button{
   height:8vh;
  }
+ .digit-field{
+max-height: 13vh;
+ }
 }
 button {
   height: 3.8em;
@@ -76,7 +79,7 @@ button:hover {
   width: 7.5em;
 }
 
-#digit-field {
+.digit-field {
   word-wrap: break-word;
   overflow: -moz-hidden-unscrollable;
   background: rgb(42, 42, 42);
@@ -88,7 +91,7 @@ button:hover {
   );
   height: 99px;
   width: 260px;
-  margin: auto;
+  margin-bottom: 0.5em;
   padding: 10px;
   border: 2px solid black;
   border-radius: 10px;

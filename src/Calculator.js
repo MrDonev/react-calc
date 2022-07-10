@@ -32,7 +32,7 @@ const Calculator = () => {
   return (
     <section className="button-section">
       <div id="wrap-calc">
-        <div id="digit-field">
+        <div className="digit-field">
           <div className="digits">{digitsRender}</div>
         </div>
         <div className="button-divs">
