@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 6vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 6s linear;
+  }
+}
+.App-header {
+  font-family: 'Lobster', cursive;
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb
+}
+.App-footer {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Libre Baskerville', serif;
+}
+button:hover{
+  font-size: x-large;
+}
+.button-section {
+  background-color: #61dafb;
+  height: 70vh;
+}
+#github{
+  position: fixed;
+  left: 5em;
+  top: 1.1em;
+}
+#equals {
+  width: 140px;
+}
+
+#digit-field {
+  word-wrap: break-word;
+  overflow: -moz-hidden-unscrollable;
+  background: rgb(42,42,42);
+  background: linear-gradient(170deg, rgba(42,42,42,1) 0%, rgba(84,84,84,1) 55%, rgba(131,131,131,1) 100%);
+  height: 99px;
+  width: 260px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#wrap-calc{
+  background: linear-gradient(105deg, rgba(42,42,42,1) 0%, rgba(111,114,129,1) 55%, rgba(208,205,209,1) 100%);
+  border: 3px #282c34 solid;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  width: 290px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.digits{
+  font-weight: bolder;
+  font-size: 1.9em;
+  font-family: 'Orbitron', sans-serif;
+  color: azure;
+}
