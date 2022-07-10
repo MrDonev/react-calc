@@ -6,7 +6,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         target="_blank"
         id='github-a'
-        href="https://github.com/MrDonev/fe-tiny-react-apps"
+        href="https://github.com/MrDonev/react-calc"
       >
         <img id="github" src={git} alt="github" />
       </a>
