@@ -2,8 +2,11 @@ import './App.css';
 import { useState } from 'react';
 
 const Calculator = () => {
-  let [digitsRender, setsDigitsRender] = useState(0);
+  let [digitsRender, setsDigitsRender] = useState('');
   function RenderDigits(digitButton) {
+    if(digitsRender==='0' && digitButton==='0'){
+        return;
+    }
     setsDigitsRender((currValue) => {
       if (currValue === 0) {
         return digitButton;
